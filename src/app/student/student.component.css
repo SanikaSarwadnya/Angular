@@ -1,0 +1,37 @@
+/* .student {
+    color:aqua;
+    border: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color:pink;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+  } */
+  .student {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .student h2 {
+    color: #4CAF50;
+    background-color: pink;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .student p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    line-height: 1.6;
+    background-color: aqua;
+    text-align: center;
+  }
+  

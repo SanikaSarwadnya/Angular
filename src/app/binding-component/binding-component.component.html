@@ -1,0 +1,63 @@
+<h1 >Property Binding </h1>
+<h4 >Show All Book details</h4>
+
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>Book ID</th>
+            <th>Book name</th>
+            <th>Book author</th>
+            <th>Book price</th>
+            <th>Book quantity</th>
+        </tr>
+
+        <tr *ngFor="let i of book">
+            <th>{{i.bookId}}</th>
+            <th>{{i.bookname}}</th>
+            <th>{{i.author}}</th>
+            <th>{{i.price}}</th>
+            <th>{{i.qty}}</th>
+        </tr>
+    </table>
+    <h1>NgIf condition on book price</h1>
+    <table class="table">
+        <tr>
+            <th>Book ID</th>
+            <th>Book name</th>
+            <th>Book author</th>
+            <th>Book price</th>
+            <th>Book quantity</th>
+        </tr>
+        <tr *ngFor="let i of book">
+            <td *ngIf="i.price>300">{{i.bookId}}</td>
+            <td *ngIf="i.price>300">{{i.bookname}}</td>
+            <td *ngIf="i.price>300">{{i.author}}</td>
+            <td *ngIf="i.price>300">{{i.price}}</td>
+            <td *ngIf="i.price>300">{{i.qty}}</td>
+                
+        </tr>
+    </table>
+
+</div>
+<hr>
+<h1>Rendering images using property binding</h1>
+<div class="container">
+    <table class="container">
+        <tr>
+            <th><img [src]="img" width="300px" height="150px"></th>
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="container">
+    <div [ngSwitch] = "day">
+        <div *ngSwitchCase="'mon'">Monday</div>
+        <div *ngSwitchCase="'tue'">Tuesday</div>
+        <div *ngSwitchCase="'wed'">wednesday</div>
+        <div *ngSwitchCase="'thur'">thursday</div>
+        <div *ngSwitchCase="'fri'">friday</div>
+        <div *ngSwitchCase="'sat'">saturday</div>
+        <div *ngSwitchCase="'sun'">sunday</div>
+        <div *ngSwitchCaseDefault>Enter proper day</div>
+    </div>
+</div>

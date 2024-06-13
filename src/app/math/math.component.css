@@ -1,0 +1,23 @@
+.math {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff3e6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .math h2 {
+    color: #FF5722;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .math p {
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+  }
+  

@@ -1,0 +1,29 @@
+.course {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #e9f7ef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .course h2 {
+    color: #007BFF;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .course ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .course li {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    padding: 5px 0;
+    text-align: center;
+  }
+  

@@ -1,0 +1,29 @@
+<h1>Event Binding</h1>
+<p>Calculator</p>
+<table>
+    <tr>
+        <td>First number:-</td>
+        <td>
+            <input type="number" #t1>
+        </td>
+    </tr>
+    <tr>
+        <td>Second number:-</td>
+        <td>
+            <input type="number" #t2>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button class=" btn btn-primary" (click)="add(t1.value,t2.value)">Addition</button><br><br>
+            <button class=" btn btn-primary" (click)="sub(t1.value,t2.value)">Substraction</button><br><br>
+            <button class=" btn btn-primary" (click)="multiplication(t1.value,t2.value)">Multiplication</button><br><br>
+            <button class=" btn btn-primary" (click)="division(t1.value,t2.value)">Divison</button>
+        </td>
+    </tr>
+    <p>Addition:-{{result}}</p>
+    <p>Substraction:-{{resultsub}}</p>
+    <p>Multiplication:-{{resultmul}}</p>
+    <p>Division:-{{resultdiv}}</p>
+</table>
